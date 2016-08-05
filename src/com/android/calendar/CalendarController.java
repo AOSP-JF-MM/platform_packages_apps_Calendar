@@ -135,7 +135,7 @@ public class CalendarController {
     }
 
     /**
-     * One of the Agenda/Day/Week/Month/Year view types
+     * One of the Agenda/Day/Week/Month view types
      */
     public interface ViewType {
         final int DETAIL = -1;
@@ -145,8 +145,7 @@ public class CalendarController {
         final int WEEK = 3;
         final int MONTH = 4;
         final int EDIT = 5;
-        final int YEAR = 6;
-        final int MAX_VALUE = 6;
+        final int MAX_VALUE = 5;
     }
 
     public static class EventInfo {
